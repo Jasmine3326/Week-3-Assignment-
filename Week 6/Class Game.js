@@ -1,3 +1,5 @@
+//
+//
 class Card {
   constructor(rank,suit,value)
     this.suit = suit;
@@ -6,7 +8,8 @@ class Card {
   } 
  
 
- class Deck {
+ 
+  class Deck {
   constructor(){
     this.cards = [];
   };
@@ -126,3 +129,4 @@ createGame() {
 
 const game = new WarGame();
 game.start();
+

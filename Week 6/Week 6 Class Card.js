@@ -1,8 +1,8 @@
-export default class Card {
+ class Card {
    this.suit = suit 
    this.rank = rank 
    this.value = value 
-}
+  }
 
 getValue() {
   switch (this.rank.toLowerCase()) {
@@ -22,15 +22,7 @@ getValue() {
   }
 }
 
-const q = New Card('club','0')
+const q = NewCard('club','0')
 console.log(q.getvalue())
 console.log(q.getCard())
 
-class player {
-
-}
-
-
-class player {
-
-}
