@@ -1,4 +1,4 @@
-// construction of the deck such as the name, number its listed as. We also push the nak and suit to display witht he new cards
+// construction of the deck such as the name, number is listed as. We also push the nak and suit to display witht he new cards
 // everytime we make a game the structure goes like this 
 //make the players, make the enviroment by stating the constructors and then add the actions what will the player do,what weapons will he have
 //if theirs no weapons what do the characters do 
@@ -34,7 +34,7 @@ class Deck {
    dealCard() {
     return this.cards.pop()
    }
-}
+
 
 const newDeck = new Deck();
  
