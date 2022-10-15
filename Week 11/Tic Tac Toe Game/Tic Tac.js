@@ -13,9 +13,9 @@ const WINNING_COMBINATIONS = [
 
 const titleElements = document.querySelectorAll('title')
 const containerElement = document.getElementsByClassName('board')
-const winningMessageElement = document.getElementsByClassName('inningMeessage')
+const winningMessageElement = document.getElementsByClassName('winningMessage')
 const reset = document.getElementsByClassName('reset')
-const winningMessageTextElement = docuemnt.getElementsByID('winningMessageText')
+const winningMessageTextElement = docuemnt.getElementById('winningMessageText')
 let isPlayer_O_Turn = false 
 
 startGame() 
@@ -66,10 +66,36 @@ function startGame() {
     return [...containerElements].every(container => {
          return container.classList.contains(PLAYER_X_CLASS) || container.classList.contains(PLAYER_O_CLASS)
     })
- }
+  }
+ 
+  function placeMark (container, currentClass) {
+    cell.classList.add(currentClass)
+  }
+   function swapTurns() {
+    isPlayer_O_Turn = !isPlayer_O_Turn
+   }
+    function setBoardHoverClass () {
+        boardEleemnt.classList.remove(PLAYER_X_CLASS)
+        boardEleemnt.classList.remove(PLAYER_O_CLASS)
+        if (isPlayer_O_Turn) {
+            boardElement.classList.add(PLAYER_O_CLASS) 
+        } else {
+            boardElement.classList.add(PLAYER_X_CLASS)
+        }
+        
+    }
+     
+
+    function checkWin(currentClass) {
+        return WINNING_COMBINATIONS.some(combination => {
+            return combination.every(index => {
+            return cellElements[index].classList.contains(currentClass)
+           })
+        })
+    }
 
 
-
+    
 
 
 
