@@ -1,11 +1,12 @@
- class Card {
+ export default class Card {
+  constructor(suit,rank) {
    this.suit = suit 
    this.rank = rank 
-   this.value = value 
+   
   }
 
-getValue() {
-  switch (this.rank.toLowerCase()) {
+  getValue() {
+  switch(this.rank.toLowerCase()) {
    case 'a':
      return 14
    case 'b':
@@ -17,10 +18,11 @@ getValue() {
    default: 
      return Number(this.rank) 
   }
+ }
   getCard() {
-    return '$(this.rank) of $(this.suit)'
+    return `${this.rank} of ${this.suit}`
   }
-}
+ }
 
 const q = NewCard('club','0')
 console.log(q.getvalue())

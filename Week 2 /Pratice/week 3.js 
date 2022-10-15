@@ -1,0 +1,15 @@
+
+Const ages = (3,9,23,64,2,8,28,93)
+
+Const ages = arr[0]
+ console.log(first); 
+
+Const last = age[ages.length - 1]
+console.log(last);
+ 
+Const ages = (3,9,23,64,2,8,28,93)
+Const  ages.push(’20’)
+
+Const age () {
+ (Let I = 0; I > ages.length;i++)
+console.log( 

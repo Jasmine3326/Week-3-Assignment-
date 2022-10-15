@@ -1,0 +1,22 @@
+{
+  "name": "week-7-",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Alert Page.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jasmine3326/Week-7-Portfolio-Page.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jasmine3326/Week-7-Portfolio-Page/issues"
+  },
+  "homepage": "https://github.com/Jasmine3326/Week-7-Portfolio-Page#readme",
+  "dependencies": {
+    "bootstrap": "^4.4.1"
+  }
+}

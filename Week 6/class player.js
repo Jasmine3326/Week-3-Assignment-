@@ -1,5 +1,7 @@
 
 //here we construct how the player gets the hand, what they're score will be and the name.
+import card from ./Class deck.js
+
 class Player {
   hand =[]
   score = 0
@@ -35,4 +37,4 @@ class Player {
   }
 }
 // all of these are used display whether the player can pick up,recieve,play, and check their hand.
-console.log('$(player1.getPlayerName') received $(deck.deal())'
+console.log('$(player1.getPlayerName') received $(deck.deal())

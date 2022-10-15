@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+
+}
+
+.Box{
+    width: 100%;
+    height: 100vh;
+    background-color:#FADADD
+}
+
+
+#img{
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://www.kibrispdr.org/data/796/pink-sky-wallpaper-4.jpg);
+    background-size: cover;
+    background-position: center; 
+    position: relative;
+    overflow: hidden; 
+}
+
+.menu{
+   display: black;
+   width:25px;
+   margin: 40px auto 0;
+   cursor: pointer;
+ }
+
+ sunday 7pm 
+ team meeting  monday 
+
+
+.logo {
+    width: 100px;
+    cursor: pointer;
+    align-items: left;
+    top: left;
+    display: flex;
+    align-items: center;
+}
+    
+.navbar {
+    width: 85%;
+    height: 30%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.img3{
+    width: 85%;
+    height: 5%;
+}
+.img2 {
+    width:  100%;
+    height: 100vh;
+    background-image: url(https://www.kibrispdr.org/data/796/pink-sky-wallpaper-4.jpg );
+    background-size: cover;
+    background-position: center; 
+    position: relative;
+    overflow: hidden;  
+}
+
+.img5{
+    background-image: url(i.pinimg.com/originals/21/d4/80/21d48067dcc5038b80795e38426bc091.jpg);
+}
+
+.button {
+    color: black;
+    padding: 10px 25px;
+    background: absolute;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    outline: none;
+    cursor: pointer;
+}
+
+.hamburger {
+    position: relative;
+    display:block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+
+    appearance: none;
+    background: none;
+    outline: none;
+    border: none;
+}
+
+.hamburger .bar .hamburger::after, .hamburger::before{
+    content: '';
+    display:block;
+    width: 100%;
+    height: 5px;
+    appearance: none;
+    background: #FFF;
+    margin: 6px 0px;
+    transition: 0.4s;
+}
+
+.hamburger.is-active::before {
+    transform: rotate(-45deg) translate(-8px, 6px);
+}
+.hamburger.is-active::after {
+    transform: rotate(50deg) translate-(-10px, -9px);
+}
+.hamburger.is-active .bar {
+   opacity: 0;
+}
+
+
+.content{
+    color: #fbfcfd;
+    position: absolute;
+    top: 45%;
+    left: 8%;
+    transform: translateY(-50%);
+    z-index: 2;
+}
+
+h1{
+font-size: 80px;
+margin: 10px 0 30px;
+line-height: 30px;
+}
+
+.sidebar{
+    width: 5%;
+    height: 100vh;
+    background: linear-gradient(#8679cb,#cea5ea,#fd9cad);
+    position:absolute;
+    right: 0;
+    top: 0; 
+}
+
+
+.menu {
+   display:block;
+   width: 25px;
+   margin: 40px auto 0;
+   cursor: pointer;
+}
+
+.social-links img{
+    width: 25px;
+    margin: 5px;
+    cursor: pointer;
+    align-items: left;
+}
+
+.social-links{
+    width: 50px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50);
+}
+#clouds {
+    width: 50px;
+    animation: cloud 5s infinite linear;
+}
+#clouds {
+   width: 50px;
+   display: center;
+   align-items: center;
+   justify-content: space-around;
+   position: absolute;
+   bottom: 0;
+
+}
+
+@keyframes cloud {
+    from {
+        left:0;
+
+    }
+    
+    to {
+        left: 100%;
+    }
+}
+
+.pages{
+    width: 50px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50);
+}
+
+/*https://i.pinimg.com/originals/21/d4/80/21d48067dcc5038b80795e38426bc091.jpg
+ */
+
+ /*Portfolio.html*/
+
+ .container {
+    width: 300px;
+    height: 300px;
+    border: 15px solid #8679cb;
+    padding: 50px;
+    margin: -30px;
+    fill: #8679cb;
+    background-color: #8679cb;
+ }
+
+ .t1 {
+align-items: center;
+float: left;
+overflow: visible;
+ }
+
+ .t2 {
+    align-items: center;
+    float: left;
+    overflow: visible;
+ }
+
+ .body {
+    overflow:hidden;
+ }
+
+ ,sec1{
+ height: 100vh;
+ }
+
+ .container2 {
+scroll-snap-type: y mandatory;
+ }

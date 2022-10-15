@@ -1,0 +1,84 @@
+body { 
+    background-color: rgb(38,133,235);
+
+  }
+
+ h1 {
+    color:goldenrod
+ }
+
+ div {
+    background-color: cornflowerblue; 
+    border-style: solid;
+    border-color: black;
+    border-radius: 5px;
+ }
+
+ .shadow-text {
+    text-shadow: grey 1px
+ }
+
+  #large-paragraph {
+    font-size: 30px;
+    border-radius: all sides;
+  }
+
+  #example {
+     color: grey;
+     background-color: blue;
+     border-style:dotted;
+     border-width: 3px;
+     border-color: red;
+     border-radius: 5px;
+     height: 200px;
+     text-align: center;
+  }
+  .img { 
+    height: 500%;
+    width:500%;
+    float: right;
+  }
+
+    .hov {
+        height: 200px;
+        width: 200px;
+        background-color: blue;
+    }
+  
+    .hov:hover {
+      background-color: red;
+    }
+
+    .every-even li:nth-child(even) {
+        background-color: red;
+    }
+    .every-third li:nth-child(3n) {
+        background-color: red;
+    }
+
+    table {
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+    th, td {
+   padding: 8px;
+   text-align: left;
+   border-bottom: 1px solid black;
+    }
+
+    tr:nth-child(even) {
+    background-color: rgb(185,185,185)
+    }
+
+    tr:hover {
+        background-color: gray;
+    }
+
+    #box-model {
+        padding: 20px;
+        border-style: solid;
+        border-width: 3px;
+        margin: 30px;
+        background-color: blue;
+    }
